@@ -2,7 +2,7 @@
 
 Este projeto utiliza DBT (Data Build Tool) para gerenciar e transformar dados de um Data Warehouse (DW). O objetivo é criar um pipeline de dados robusto e eficiente que trata e organiza os dados e suas movimentações para análise.
 
-**Cenário:** Queremos a média dos 5 principais tickers do setor de energia dos últimos 5 dias.
+**Cenário:** Queremos a média dos principais tickers do setor de energia dos últimos 5 dias.
 
 **Solução:** [Link do Relatório](https://tickers-energia-5d-avg.streamlit.app/)
 
