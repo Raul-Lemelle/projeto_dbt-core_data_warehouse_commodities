@@ -36,7 +36,7 @@ def get_data():
 st.set_page_config(page_title='Tickers Energia', layout='wide')
 
 # Título do Dashboard
-st.title('Média do Valor de Fechamento dos últimos 5 dias - Tickers Energia')
+st.title('Média Fechamento dos últimos 5 dias - Tickers Energia')
 
 # Descrição
 st.write("""
