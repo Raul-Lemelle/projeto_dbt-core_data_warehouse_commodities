@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dm_tickers
+    description: "Datamart para dados de principais tickers setor de energia"
+    columns:
+      - name: ticker
+        description: "Tickers"
+      - name: media_valor_fechamento_5d
+        description: "Média do valor de fechamento dos últimos 5 dias"

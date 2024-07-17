@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: database00
+    schema: public
+    tables:
+      - name: tickers
+        description: "Tabela que contém dados de grandes empresas que atuam no setor de energia, e fundos que rastreiam índice do setor"
+        columns:
+          - name: Date
+            description: "Data de observação"
+          - name: Close
+            description: "Preço de fechamento do ticker"
+          - name: tck
+            description: "Nome do ticker"
